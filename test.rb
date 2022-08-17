@@ -16,3 +16,22 @@ p(array.map{
     |word|
     word+"!"
 })
+
+#Enumerating with HASHES
+
+book = {
+    title: "The Hobbit",
+    author: "J. R. R. Tolkien",
+    published: 1937 
+}
+
+
+p book.map{
+    |b|
+    b
+}
+book.each{
+    |bookk|
+    bookk
+    p(bookk)
+}
